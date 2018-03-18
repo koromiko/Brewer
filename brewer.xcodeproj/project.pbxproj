@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F36B4565D941354C5C18667 /* Pods_brewerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A13E1174686C615433EB4C5 /* Pods_brewerTests.framework */; };
+		B518E5D12042FE8D008457CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518E5D02042FE8D008457CE /* AppDelegate.swift */; };
+		B518E5D32042FE8D008457CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518E5D22042FE8D008457CE /* ViewController.swift */; };
+		B518E5D62042FE8D008457CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B518E5D42042FE8D008457CE /* Main.storyboard */; };
+		B518E5D82042FE8D008457CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B518E5D72042FE8D008457CE /* Assets.xcassets */; };
+		B518E5DB2042FE8D008457CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B518E5D92042FE8D008457CE /* LaunchScreen.storyboard */; };
+		B518E5E62042FE8D008457CE /* brewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B518E5E52042FE8D008457CE /* brewerTests.swift */; };
+		EE0BF41D75F4065E6547A435 /* Pods_brewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DA8DD9BC94656DBA15BB16 /* Pods_brewer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B518E5E22042FE8D008457CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B518E5C52042FE8D008457CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B518E5CC2042FE8D008457CE;
+			remoteInfo = brewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B518E6132042FE8E008457CE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03BCCA41AF8BDCBC1F087275 /* Pods-brewer WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit App/Pods-brewer WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		0A5B354825795A525F26F590 /* Pods-brewerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0F59A6055B5019A63FAA4170 /* Pods-brewer.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer.beta.xcconfig"; path = "Pods/Target Support Files/Pods-brewer/Pods-brewer.beta.xcconfig"; sourceTree = "<group>"; };
+		15BDE76D406E333466C94904 /* Pods-brewer WatchKit App.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit App.beta.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit App/Pods-brewer WatchKit App.beta.xcconfig"; sourceTree = "<group>"; };
+		1A13E1174686C615433EB4C5 /* Pods_brewerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brewerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221BCDF19170371A377EF806 /* Pods_brewer_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brewer_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C4300BBE92E6143590C8A61 /* Pods-brewerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2C65ADF7454D7D6CC0940B07 /* Pods-brewer WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit Extension/Pods-brewer WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		4D4D3D4D6160C2A4CCA46959 /* Pods-brewer WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit App/Pods-brewer WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		52DA8DD9BC94656DBA15BB16 /* Pods_brewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BF4B4BA7537F0AA9E74DC97 /* Pods_brewer_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brewer_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4FA4DA5472D4F38BD73F4B /* Pods-brewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brewer/Pods-brewer.debug.xcconfig"; sourceTree = "<group>"; };
+		7F06126926635F443F25883B /* Pods-brewer WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit Extension/Pods-brewer WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		839C0648641E9B434C6156D3 /* Pods-brewerTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewerTests.staging.xcconfig"; path = "Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests.staging.xcconfig"; sourceTree = "<group>"; };
+		8CAD05AB0B6AE1B2A1900D80 /* Pods-brewer WatchKit Extension.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer WatchKit Extension.beta.xcconfig"; path = "Pods/Target Support Files/Pods-brewer WatchKit Extension/Pods-brewer WatchKit Extension.beta.xcconfig"; sourceTree = "<group>"; };
+		976F02C0C636454044F1D9B9 /* Pods-brewer.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer.staging.xcconfig"; path = "Pods/Target Support Files/Pods-brewer/Pods-brewer.staging.xcconfig"; sourceTree = "<group>"; };
+		A99D80439668D1E9D180CCB1 /* Pods-brewerTests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewerTests.production.xcconfig"; path = "Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests.production.xcconfig"; sourceTree = "<group>"; };
+		AFF254997FDD11ECB3BF1ACA /* Pods-brewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-brewer/Pods-brewer.release.xcconfig"; sourceTree = "<group>"; };
+		B518E5CD2042FE8D008457CE /* brewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B518E5D02042FE8D008457CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B518E5D22042FE8D008457CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B518E5D52042FE8D008457CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B518E5D72042FE8D008457CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B518E5DA2042FE8D008457CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B518E5DC2042FE8D008457CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B518E5E12042FE8D008457CE /* brewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B518E5E52042FE8D008457CE /* brewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brewerTests.swift; sourceTree = "<group>"; };
+		B518E5E72042FE8D008457CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D803A8E2D4E4E3FBC8FD302D /* Pods-brewerTests.beta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewerTests.beta.xcconfig"; path = "Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests.beta.xcconfig"; sourceTree = "<group>"; };
+		F68B4B5DDFA0F9AB135707E6 /* Pods-brewer.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brewer.production.xcconfig"; path = "Pods/Target Support Files/Pods-brewer/Pods-brewer.production.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B518E5CA2042FE8D008457CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0BF41D75F4065E6547A435 /* Pods_brewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B518E5DE2042FE8D008457CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F36B4565D941354C5C18667 /* Pods_brewerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1997E74AA8D735A96D50AFA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E4FA4DA5472D4F38BD73F4B /* Pods-brewer.debug.xcconfig */,
+				AFF254997FDD11ECB3BF1ACA /* Pods-brewer.release.xcconfig */,
+				03BCCA41AF8BDCBC1F087275 /* Pods-brewer WatchKit App.debug.xcconfig */,
+				4D4D3D4D6160C2A4CCA46959 /* Pods-brewer WatchKit App.release.xcconfig */,
+				7F06126926635F443F25883B /* Pods-brewer WatchKit Extension.debug.xcconfig */,
+				2C65ADF7454D7D6CC0940B07 /* Pods-brewer WatchKit Extension.release.xcconfig */,
+				0A5B354825795A525F26F590 /* Pods-brewerTests.debug.xcconfig */,
+				2C4300BBE92E6143590C8A61 /* Pods-brewerTests.release.xcconfig */,
+				0F59A6055B5019A63FAA4170 /* Pods-brewer.beta.xcconfig */,
+				15BDE76D406E333466C94904 /* Pods-brewer WatchKit App.beta.xcconfig */,
+				8CAD05AB0B6AE1B2A1900D80 /* Pods-brewer WatchKit Extension.beta.xcconfig */,
+				D803A8E2D4E4E3FBC8FD302D /* Pods-brewerTests.beta.xcconfig */,
+				976F02C0C636454044F1D9B9 /* Pods-brewer.staging.xcconfig */,
+				F68B4B5DDFA0F9AB135707E6 /* Pods-brewer.production.xcconfig */,
+				839C0648641E9B434C6156D3 /* Pods-brewerTests.staging.xcconfig */,
+				A99D80439668D1E9D180CCB1 /* Pods-brewerTests.production.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73492E0BAA40BB12C235737D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DA8DD9BC94656DBA15BB16 /* Pods_brewer.framework */,
+				221BCDF19170371A377EF806 /* Pods_brewer_WatchKit_App.framework */,
+				5BF4B4BA7537F0AA9E74DC97 /* Pods_brewer_WatchKit_Extension.framework */,
+				1A13E1174686C615433EB4C5 /* Pods_brewerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B518E5C42042FE8D008457CE = {
+			isa = PBXGroup;
+			children = (
+				B518E5CF2042FE8D008457CE /* brewer */,
+				B518E5E42042FE8D008457CE /* brewerTests */,
+				B518E5CE2042FE8D008457CE /* Products */,
+				1997E74AA8D735A96D50AFA0 /* Pods */,
+				73492E0BAA40BB12C235737D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B518E5CE2042FE8D008457CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B518E5CD2042FE8D008457CE /* brewer.app */,
+				B518E5E12042FE8D008457CE /* brewerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B518E5CF2042FE8D008457CE /* brewer */ = {
+			isa = PBXGroup;
+			children = (
+				B518E5D02042FE8D008457CE /* AppDelegate.swift */,
+				B518E5D22042FE8D008457CE /* ViewController.swift */,
+				B518E5D42042FE8D008457CE /* Main.storyboard */,
+				B518E5D72042FE8D008457CE /* Assets.xcassets */,
+				B518E5D92042FE8D008457CE /* LaunchScreen.storyboard */,
+				B518E5DC2042FE8D008457CE /* Info.plist */,
+			);
+			path = brewer;
+			sourceTree = "<group>";
+		};
+		B518E5E42042FE8D008457CE /* brewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B518E5E52042FE8D008457CE /* brewerTests.swift */,
+				B518E5E72042FE8D008457CE /* Info.plist */,
+			);
+			path = brewerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B518E5CC2042FE8D008457CE /* brewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B518E6142042FE8E008457CE /* Build configuration list for PBXNativeTarget "brewer" */;
+			buildPhases = (
+				AFEEC41F6D954AA96B81B382 /* [CP] Check Pods Manifest.lock */,
+				B518E5C92042FE8D008457CE /* Sources */,
+				B518E5CA2042FE8D008457CE /* Frameworks */,
+				B518E5CB2042FE8D008457CE /* Resources */,
+				B518E6132042FE8E008457CE /* Embed Watch Content */,
+				8796A5A91B8B6F05A41365B8 /* [CP] Embed Pods Frameworks */,
+				95066FDF9F0CE84941885DA8 /* [CP] Copy Pods Resources */,
+				B5670E532050298F00E57336 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brewer;
+			productName = brewer;
+			productReference = B518E5CD2042FE8D008457CE /* brewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B518E5E02042FE8D008457CE /* brewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B518E6172042FE8E008457CE /* Build configuration list for PBXNativeTarget "brewerTests" */;
+			buildPhases = (
+				625901083CA9B33A7A4749C2 /* [CP] Check Pods Manifest.lock */,
+				B518E5DD2042FE8D008457CE /* Sources */,
+				B518E5DE2042FE8D008457CE /* Frameworks */,
+				B518E5DF2042FE8D008457CE /* Resources */,
+				5FEDE747D95ED9A839340ACE /* [CP] Embed Pods Frameworks */,
+				307474F0BCF67DA5B4D1CED4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B518E5E32042FE8D008457CE /* PBXTargetDependency */,
+			);
+			name = brewerTests;
+			productName = brewerTests;
+			productReference = B518E5E12042FE8D008457CE /* brewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B518E5C52042FE8D008457CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = STH;
+				TargetAttributes = {
+					B518E5CC2042FE8D008457CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					B518E5E02042FE8D008457CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B518E5CC2042FE8D008457CE;
+					};
+				};
+			};
+			buildConfigurationList = B518E5C82042FE8D008457CE /* Build configuration list for PBXProject "brewer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B518E5C42042FE8D008457CE;
+			productRefGroup = B518E5CE2042FE8D008457CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B518E5CC2042FE8D008457CE /* brewer */,
+				B518E5E02042FE8D008457CE /* brewerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B518E5CB2042FE8D008457CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518E5DB2042FE8D008457CE /* LaunchScreen.storyboard in Resources */,
+				B518E5D82042FE8D008457CE /* Assets.xcassets in Resources */,
+				B518E5D62042FE8D008457CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B518E5DF2042FE8D008457CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		307474F0BCF67DA5B4D1CED4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FEDE747D95ED9A839340ACE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brewerTests/Pods-brewerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		625901083CA9B33A7A4749C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brewerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8796A5A91B8B6F05A41365B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brewer/Pods-brewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95066FDF9F0CE84941885DA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brewer/Pods-brewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFEEC41F6D954AA96B81B382 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5670E532050298F00E57336 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 5b3bf5326ffaea1370863d62528c67ba271eeff0 7cf4117d79d6f67dcce5f18bee154a1c5150f1f3bc618a9f6dd9ad000ef6c374";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B518E5C92042FE8D008457CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518E5D32042FE8D008457CE /* ViewController.swift in Sources */,
+				B518E5D12042FE8D008457CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B518E5DD2042FE8D008457CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B518E5E62042FE8D008457CE /* brewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B518E5E32042FE8D008457CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B518E5CC2042FE8D008457CE /* brewer */;
+			targetProxy = B518E5E22042FE8D008457CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B518E5D42042FE8D008457CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B518E5D52042FE8D008457CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B518E5D92042FE8D008457CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B518E5DA2042FE8D008457CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5670E4E204D896E00E57336 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		B5670E4F204D896E00E57336 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976F02C0C636454044F1D9B9 /* Pods-brewer.staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HK675VM357;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = brewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DSTG";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewer.staging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ba3b243b-42a9-4f25-a27d-0e2c91006687";
+				PROVISIONING_PROFILE_SPECIFIER = "Brewer Staging";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Staging;
+		};
+		B5670E50204D896E00E57336 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 839C0648641E9B434C6156D3 /* Pods-brewerTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK675VM357;
+				INFOPLIST_FILE = brewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brewer.app/brewer";
+			};
+			name = Staging;
+		};
+		B5688A6120529482004CFCB6 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Production;
+		};
+		B5688A6220529482004CFCB6 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68B4B5DDFA0F9AB135707E6 /* Pods-brewer.production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HK675VM357;
+				INFOPLIST_FILE = brewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DPROD";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewer.production;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5af77b48-10f1-4a21-bb6a-f90627019cc0";
+				PROVISIONING_PROFILE_SPECIFIER = "Brewer Production";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Production;
+		};
+		B5688A6320529482004CFCB6 /* Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99D80439668D1E9D180CCB1 /* Pods-brewerTests.production.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK675VM357;
+				INFOPLIST_FILE = brewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brewer.app/brewer";
+			};
+			name = Production;
+		};
+		B5688A6420581607004CFCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5688A6520581607004CFCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFF254997FDD11ECB3BF1ACA /* Pods-brewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HK675VM357;
+				INFOPLIST_FILE = brewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DPROD";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "27d54330-66c9-422a-8934-94ef0201cad8";
+				PROVISIONING_PROFILE_SPECIFIER = "Brewer Distribution";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B5688A6620581607004CFCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C4300BBE92E6143590C8A61 /* Pods-brewerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HK675VM357;
+				INFOPLIST_FILE = brewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = works.sth.brewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brewer.app/brewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B518E5C82042FE8D008457CE /* Build configuration list for PBXProject "brewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5670E4E204D896E00E57336 /* Staging */,
+				B5688A6120529482004CFCB6 /* Production */,
+				B5688A6420581607004CFCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Staging;
+		};
+		B518E6142042FE8E008457CE /* Build configuration list for PBXNativeTarget "brewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5670E4F204D896E00E57336 /* Staging */,
+				B5688A6220529482004CFCB6 /* Production */,
+				B5688A6520581607004CFCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Staging;
+		};
+		B518E6172042FE8E008457CE /* Build configuration list for PBXNativeTarget "brewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5670E50204D896E00E57336 /* Staging */,
+				B5688A6320529482004CFCB6 /* Production */,
+				B5688A6620581607004CFCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Staging;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B518E5C52042FE8D008457CE /* Project object */;
+}
