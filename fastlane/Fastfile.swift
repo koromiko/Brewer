@@ -58,9 +58,9 @@ enum ProjectSetting {
     static var productName = "brewer"
     static let devices: [String] = ["iPhone 8", "iPad Air"]
 
-    static let codeSigningPath = environmentVariable(get: "CODESIGNING_PATH")
-    static let keyChainDefaultPath = environmentVariable(get: "KEYCHAIN_DEFAULT_PATH")
-    static let certificatePassword = environmentVariable(get: "CERTIFICATE_PASSWORD")
+    static let codeSigningPath = environmentVariable(get: "CODESIGNING_PATH").replacingOccurrences(of: "\"", with: "")
+    static let keyChainDefaultPath = environmentVariable(get: "KEYCHAIN_DEFAULT_PATH").replacingOccurrences(of: "\"", with: "")
+    static let certificatePassword = environmentVariable(get: "CERTIFICATE_PASSWORD").replacingOccurrences(of: "\"", with: "")
     static let sdk = "iphoneos11.2"
 }
 
@@ -136,8 +136,8 @@ class Fastfile: LaneFile {
         package(config: Staging())
         crashlytics(
             ipaPath: "./\(ProjectSetting.productName).ipa",
-            apiToken: environmentVariable(get: "CRASHLYTICS_API_KEY"),
-            buildSecret: environmentVariable(get: "CRASHLYTICS_BUILD_SECRET")
+            apiToken: environmentVariable(get: "CRASHLYTICS_API_KEY").replacingOccurrences(of: "\"", with: ""),
+            buildSecret: environmentVariable(get: "CRASHLYTICS_BUILD_SECRET").replacingOccurrences(of: "\"", with: "")
         )
     }
 
@@ -146,8 +146,8 @@ class Fastfile: LaneFile {
         package(config: Production())
         crashlytics(
             ipaPath: "./\(ProjectSetting.productName).ipa",
-            apiToken: environmentVariable(get: "CRASHLYTICS_API_KEY"),
-            buildSecret: environmentVariable(get: "CRASHLYTICS_BUILD_SECRET")
+            apiToken: environmentVariable(get: "CRASHLYTICS_API_KEY").replacingOccurrences(of: "\"", with: ""),
+            buildSecret: environmentVariable(get: "CRASHLYTICS_BUILD_SECRET").replacingOccurrences(of: "\"", with: "")
         )
     }
 
